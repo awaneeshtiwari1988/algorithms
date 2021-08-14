@@ -1,12 +1,9 @@
 package com.practice.algorithms.sorting;
 
-import java.util.Arrays;
-
 public class InsertionSort {
 
     public int[] insertionSort(int[] inputArray){
-        int key = 0;
-        int j = 0;
+        int key,j;
         for (int i = 0; i < inputArray.length; i++) {
             key = inputArray[i];
             j = i-1;
@@ -21,8 +18,7 @@ public class InsertionSort {
     }
 
     public int[] insertionSortDesc(int[] inputArray){
-        int key = 0;
-        int j =0;
+        int key,j;
         for (int i = 0; i < inputArray.length; i++) {
             key = inputArray[i];
             j = i-1;
