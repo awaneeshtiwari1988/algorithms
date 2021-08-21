@@ -1,6 +1,5 @@
 package com.practice.algorithms;
 
-import com.practice.algorithms.sorting.InsertionSort;
 import com.practice.algorithms.sorting.MergeSort;
 import org.junit.Assert;
 import org.junit.Test;
